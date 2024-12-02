@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <>
-      <Header characters={characters} />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/detail/:id" element={<Detail />} />
